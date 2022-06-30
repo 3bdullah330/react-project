@@ -1,0 +1,70 @@
+{
+  "section": [
+    {
+      "id": 1,
+      "icon_name": "fa-solid fa-lightbulb fa-3x i",
+      "title": "Tell Us Your Idea",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut lab."
+    },
+    {
+      "id": 2,
+      "icon_name": "fa-solid fa-paste fa-3x i",
+      "title": "We Will Do All The Work",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut lab."
+    },
+    {
+      "id": 3,
+      "icon_name": "fa-solid fa-globe fa-3x i",
+      "title": "Your Product is Worldwide",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut lab."
+    }
+  ],
+
+  "services": [
+    {
+      "id": 1,
+      "icon_name": "fa-solid fa-bezier-curve i",
+      "title": "Graphic Design",
+      "text": "Graphic design is the process of visual communication andproblem-solving using one or more of typography, photography andillustration."
+    },
+    {
+      "id": 2,
+      "icon_name": "fa-regular fa-window-maximize i",
+      "title": "Web Design",
+      "text": "Web design encompasses many different skills and disciplines inthe production and maintenance of websites."
+    },
+    {
+      "id": 3,
+      "icon_name": "fa-solid fa-pen-ruler i",
+      "title": "UI & UX",
+      "text": "Process of enhancing user satisfaction with a product by improving the usability, accessibility, and pleasure provided in the interaction."
+    },
+    {
+      "id": 4,
+      "icon_name": "fa-solid fa-pen-ruler i",
+      "title": "Web Development",
+      "text": "Process of enhancing user satisfaction with a product by improving the usability, accessibility, and pleasure provided in the interaction."
+    }
+  ],
+
+  "portfolio": [
+    {
+      "id": 1,
+      "src": "imgs/portfolio-1.jpg",
+      "title": "Project Here",
+      "text": "My creative ability is very difficult to measure because it can manifest in so many surprising and."
+    },
+    {
+      "id": 2,
+      "src": "imgs/portfolio-2.jpg",
+      "title": "Project Here",
+      "text": "My creative ability is very difficult to measure because it can manifest in so many surprising and."
+    },
+    {
+      "id": 3,
+      "src": "imgs/portfolio-3.jpg",
+      "title": "Project Here",
+      "text": "My creative ability is very difficult to measure because it can manifest in so many surprising and."
+    }
+  ]
+}

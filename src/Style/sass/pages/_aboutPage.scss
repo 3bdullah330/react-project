@@ -1,0 +1,103 @@
+@use "../helpers/variables" as *;
+@use "../helpers/mixins" as *;
+
+/* Start About */
+.about {
+  @include centeringElement();
+  flex-direction: column;
+  .holder {
+    position: relative;
+    top: -60px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 160px;
+    @include mediaLarge(max-width) {
+      flex-direction: column;
+      gap: 60px;
+      text-align: center;
+    }
+    .holder-img {
+      position: relative;
+      z-index: 1;
+      max-width: 260px;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: -30px;
+        transform: translateY(-50%);
+        z-index: -1;
+        width: 100px;
+        height: 110%;
+        background-color: #efefef;
+        @include mediaLarge(max-width) {
+          display: none;
+        }
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        top: -50px;
+        right: -140px;
+        z-index: -1;
+        width: 180px;
+        height: 290px;
+        border: solid #{$greenColor} {
+          width: 0 0 70px 85px;
+        }
+        @include mediaLarge(max-width) {
+          display: none;
+        }
+      }
+      img {
+        max-width: 100%;
+        @include mediaLarge(max-width) {
+          max-height: 74vw;
+        }
+      }
+    }
+    .text {
+      max-width: 550px;
+      p {
+        line-height: 1.7;
+        color: $darkText;
+        &:first-of-type {
+          position: relative;
+          font: {
+            size: 20px;
+            weight: 900;
+          }
+          @include mediaXsmall(max-width) {
+            font-size: 18px;
+          }
+          padding-bottom: 40px;
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50%;
+            height: 2px;
+            background-color: #{$greenColor};
+            @include mediaLarge(max-width) {
+              left: 50%;
+              transform: translateX(-50%);
+            }
+          }
+        }
+        &:last-of-type {
+          font-size: 18px;
+          margin-top: 20px;
+          line-height: 1.9;
+          @include mediaLarge(max-width) {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+/* End About */

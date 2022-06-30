@@ -1,0 +1,15 @@
+@use "../helpers/mixins" as *;
+
+/* Start Grid System */
+.container {
+  width: 80vw;
+  padding: 0 20px;
+  margin: auto;
+  @include mediaMedium(max-width) {
+    width: 88vw;
+  }
+  @include mediaSmall(max-width) {
+    padding: 0;
+  }
+}
+/* End Grid System */
